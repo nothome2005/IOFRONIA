@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;	
+}
+body{
+	background: lavender;
+	color: purple;
+}
+header{
+	display: flex;
+	justify-content: center;
+}
+.Logo, .Top_menu{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 25px;
+}
+.Top_menu li{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 25px;
+}
+.Top_menu a{
+	vertical-align: middle;
+	font-family: arial;
+	font-size: 20px;
+	color: purple;
+	text-decoration: none;
+}
+.Top_menu a:hover{
+	color: #26C4FF;
+}
+.Logo h1{
+	font-family: arial;
+	font-size: 30px;
+	color: purple;
+	vertical-align: middle;
+}
